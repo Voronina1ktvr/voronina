@@ -1,0 +1,67 @@
+*{
+transition: all .5s;
+box-sizing: border-box;
+}
+body{
+	font:1em 'PT Sans', Arial, Helvetica, sans-serif;
+	background: url(http://subtlepatterns.com/paterns/grid.png);
+	color:#333;
+}
+.conteiner{
+	width: 940px;
+	margin: 0 auto;
+}
+/* CSS Grid
+==========================*/
+
+.row{
+	margin-bottom: 20px;// минимальный отступ между строками
+}
+// чтобы .row слой с содержал все свои элементы, в конец (:after)ставим скрытую строчку
+
+.row:after{
+	display:block;
+	content: '.';
+	height: 0;
+	visibility: hidden;
+	clear: both;// отменяет float в span
+}
+// правило для всех элементов, которые содержат в название класса 'span'
+
+[class *= "span"]{
+float: left;
+display: inline; 
+margin-right: 20px;
+}
+//правило последнего span-a, самого правого в строке .row
+
+[class*= "span"]:last-child{
+	margin: 0;
+	float: right;
+}
+//ширина ячеек сетки 
+.span1{widht: 60px}
+.span2{widht: 140px}
+.span3{widht: 220px}
+.span4{widht: 300px}
+.span5{widht: 380px}
+.span6{widht: 460px}
+.span7{widht: 540px}
+.span8{widht: 620px}
+.span9{widht: 700px}
+.span10{widht: 780px}
+.span11{widht: 860px}
+.span12{widht: 940px}
+//отступы слева ячеек
+.offset1{margin-left: 60px}
+.offset2{margin-left: 140px}
+.offset3{margin-left: 220px}
+.offset4{margin-left: 300px}
+.offset5{margin-left: 380px}
+.offset6{margin-left: 460px}
+.offset7{margin-left: 540px}
+.offset8{margin-left: 620px}
+.offset9{margin-left: 700px}
+.offset10{margin-left: 780px}
+.offset11{margin-left: 860px}
+.offset12{margin-left: 940px}

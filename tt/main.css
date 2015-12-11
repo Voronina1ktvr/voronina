@@ -1,0 +1,25 @@
+body{
+    background: darkblue;
+
+font-family: Verdana;
+font-size: 13px;
+color: #333;
+
+}
+a{
+    color: #cb2c2c;
+text-decoration: none;
+
+}
+h1{
+    background: darkred;
+    color:yellow;
+
+}
+h2{
+    background: lightblue;
+
+}
+p{
+    color: white;
+}
