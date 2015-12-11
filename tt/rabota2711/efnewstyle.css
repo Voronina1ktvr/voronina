@@ -4,7 +4,8 @@
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
-  border: 1px solid #ccc;
+  outline-style: solid;
+  outline-color: #ccc;
 }
 .menu {
   margin-top: 0px;
@@ -27,27 +28,32 @@
 }
 .text {
   width:500px;
-  border: 1px solid #ccc;
+  outline-style: solid;
+  outline-color: #ccc;
   display: inline-block;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 .block4 {
-  width:246px;
-  border: 1px solid #ccc;
+  width:247px;
+  outline-style: solid;
+  outline-color: #ccc;
   display: inline-block;
 }
 .logo1 {
   width:200px;
   height: 100px;
-  border: 1px solid #ccc;
+  outline-style: solid;
+  outline-color: #ccc;
   display: inline-block;
   }
 .logo2 {
-  width:752px;
+  width:755px;
   height: 100px;
-  border: 1px solid #ccc;
+  outline-style: solid;
+  outline-color: #ccc;
   display: inline-block;
+  text-align: center;
 }
 .statya {
   width:500px;
@@ -55,12 +61,13 @@
   display: inline-block;
 }
 .contstatya {
-	margin-top: 30px;
+  margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 150px;
   margin-left: 80px;
   width:500px;
-  border: 1px solid #ccc;
+  outline-style: solid;
+  outline-color: #ccc;
   display: inline-block;
 }
 .wrapper{
